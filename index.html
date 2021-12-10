@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RPS</title>
+<link rel="stylesheet" href="rps.css">
+<script src="rps.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="title" id="main">Rock Paper Scissors</div>
+<div class="title" id="description">Rock beats scissors, paper beats rock, scissors beats paper.</div>
+
+<div class="buttons" id="pick">
+    Pick one <br>
+
+    <button class="b" id="b1" >Rock</button>
+    <button class="b" id="b2" >Paper</button>
+    <button class="b" id="b3" >Scissors</button>
+
+</div>
+
+<div class="grid-container">
+
+    <div class="grid-child" id="player">
+        Your Choice
+    </div>
+
+    <div class="grid-child" id="opponent">
+        Opponent's choice
+    </div>
+  
+</div>
+
+<div class="score">
+
+    <div id="playerscore"></div>
+    <div class="points" id="ppoint">Player points here</div>
+    <div class="points" id="opoint">Opponents points here</div>
+
+</div>
+
+<div class="end">
+
+    <button id="endbutton">Restart</button>
+
+</div>
+
+</body>
+
+</html>
